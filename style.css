@@ -1,0 +1,98 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color :rgb(0, 0, 0);
+    padding:15px;
+    font-size: 30px;
+    font-family: Georgia;
+    font-weight: 400;
+    color:white;
+   
+}
+body{
+    margin:0px;
+    background-image:url("download.jpg");
+    
+}
+.grid{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+.grid img{
+    box-shadow: 5px 5px 30px 1px rgb(0, 0, 0);
+    border:3px solid black;
+    border-radius:50px;
+}
+.origami{
+    box-shadow: 5px 5px 30px 10px rgb(0, 0, 0);
+    word-spacing: 0.2em; 
+    text-decoration-line:underline;
+    
+    border: 5px solid #ccc;
+    border-style: solid;
+    border-color: hsl(32, 100%, 50%);
+    border-color: navy fuchsia;
+    border-color: #fff #888 transparent;
+    border-color: red green blue black;
+    border-radius: 20px;
+    
+    background-color:rgb(206, 206, 206);
+    padding:30px;
+    margin:25px;
+    width: 310px;
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bodyimg{
+   
+   
+    word-spacing: 0.5em; 
+    text-decoration-line:underline;
+    text-decoration-style: double;
+    position:absolute;
+   top: 40px;
+   right:20px;
+   display: flex;
+   flex-wrap:wrap;
+    justify-content: center;
+    font-size:20px;
+    
+    font-style:oblique;
+    font-family:'Times New Roman', Times;
+    color:white; 
+}
+a:link{
+
+ 
+    color:red;
+}
+a:visited{
+    color: greenyellow;
+}
+.origami{
+    position: relative;
+}
+.origami p{
+    position: absolute;
+    top:16%;
+    bottom: 900px;
+    left:30%;
+    transform: translate(-50%,-50%);
+    color:rgb(235, 0, 0);
+    opacity: 0;
+}
+.origami:hover p{
+    transform: scale(1.2);
+    opacity:1;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+.origami:hover img{
+    color: indigo;
+    opacity: 0.33;
+   
+}
